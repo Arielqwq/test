@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* 命名可以由符號，但不會由數字開始 */
+    table {
+      width: 600px;
+      height: 600px;
+      border: 1px solid black;
+      /* 把 border 間的空隙消除 */
+      border-spacing: 0;
+      /* text-align: center; */
+      /* background: lightcoral; */
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    td {
+      width: 100px;
+      height: 100px;
+      border: 1px solid black;
+      color: black;
+    }
+
+    /* table tr:nth-child(even) td:nth-child(even) {
+      background-color: pink;
+    }
+
+    table tr:nth-child(odd) td:nth-child(odd) {
+      background-color: #aac;
+    } */
+
+    table tr:nth-child(odd) td:nth-child(odd) {
+      background-color: black;
+    }
+
+    table tr:nth-child(odd) td:nth-child(even) {
+      background-color: white;
+    }
+
+    table tr:nth-child(even) td:nth-child(even) {
+      background-color: black;
+    }
+
+    table tr:nth-child(even) td:nth-child(odd) {
+      background-color: white;
+    }
+
+
+    /* td :nth-child(even) {
+      background-color: #fff;
+    } */
+  </style>
+</head>
+
+<body>
+  <!--  table>tr*8>td*8 一次印出來-->
+  <table>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+
+
+</body>
+
+</html>
